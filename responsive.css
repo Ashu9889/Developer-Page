@@ -1,0 +1,602 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+ 
+}
+header{
+  background-color: blue;
+
+  
+}
+
+nav{
+    margin: 30px 30px 0px 30px ;
+    float: right;
+    cursor: pointer;
+
+  }
+  .logo{
+    margin-left: 60px;
+    margin-top: 49px;
+  }
+  .ham{
+    width: 50px;
+    display: none;
+  }
+  .nav-item{
+    margin: 5px 5px 0px 5px ;
+    font-size: 15px;
+    color: white;
+  }
+  .nav-item-active{
+    background-color: white;
+    color: blue;
+    padding: 4px 4px ;
+    border-radius: 5px;
+    font-size: 15px;
+    
+  }
+  
+  .header-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 28vw;
+    /* align-items: center; */
+  }
+
+  .header-image{
+    width:40%;
+    position: relative;
+  }
+
+  .side-image{
+    position: absolute;
+    width: 100%;
+   
+
+    
+}
+ 
+  .header-text{
+    margin-left: 60px;
+    margin-top: 49px; 
+    font-weight:lighter;
+    font-size: 1.6rem;
+    color: white;
+    width: 50%;
+  }
+  .header-text p{
+    font-size: 1.4rem;
+  } 
+  .companies{
+    margin: 30px 0px 0px 30px ;
+    width: 50%;
+    display: inline-block;
+  }
+  .company-items{
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    font-size: 1.3rem;
+    font-family: Righteous;
+  }
+
+
+  /* Blog Section  */
+   
+  .api-heading{
+    margin: 30px 0px 0px 50px ;
+  }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px 0px 30px ;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-active{
+    /* z-index: 1; */
+    background-color:whitesmoke;
+    height: 20%;
+    border-radius: 15px;
+    padding: 30px 10px;
+  }
+  .card{
+   
+    padding: 30px 10px;
+
+  }
+  
+  .butn{
+      width: 10%;
+  }
+  
+  i{
+    /* padding: 10px; */
+    padding: 20px 20px 20px 20px;
+    background-color: blue;
+    border-radius: 34px;
+    color: white;
+  }
+
+  /* Blog Section */
+   
+  .blog{
+     padding-block: 40px;
+  }
+  
+
+  .blog-heading{
+    margin: 30px 0px 0px 50px ;
+    font-size: 20px;
+  }
+    
+  .blog-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px 0px 30px ;
+    justify-content: space-between;
+
+
+  }
+  .blog-card{
+    background-color: white;
+    width: 50%;
+    border-top-left-radius: 20%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* gap: 5%; */
+  }
+  .blog-image{
+    /* width: 50%; */
+    
+  }
+  .blog-bottom{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+  }
+  .blog-author {
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    width: 120px;
+    
+}
+  .blog-content{
+    padding-top: 20px;
+    padding-left: 20px ;
+    width: 50%;
+  }
+  .blog-content h3{
+    padding-block: 15px;
+  }
+  
+  .blog-content h6{
+    color: blue;
+  }
+
+  /* FAQ Section  */
+  
+  .faq-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightskyblue;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  .faq-content{
+    padding-left: 5%;
+    width: 45%;
+    padding-block: 30px;
+  }
+  .faq-content h2{
+    font-size: 3rem;
+    font-weight: 600;
+   
+    
+  }
+  .faq-content h3{
+    font-size: 0.9rem;
+    padding-block: 2%;
+   
+  }
+  .faq-content h4{
+    font-size: 20px;
+    padding-block: 5%;
+   
+  }
+  .faq-content button{
+    font-size: 10px;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+  
+  }
+  .faq-image{
+    width: 50%;
+ 
+    /* position: relative; */
+  }
+  .faq-image img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* bottom: 0px; */
+    
+  }
+
+  /* Download Section */
+
+  .download-section{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    height: 10vw;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .download-content{
+    width: 40%;
+    padding-left: 40px ;
+  }
+  .download-content span{
+    font-weight: 300;
+  }
+  .download-email{
+    width: 50%;
+  }
+  .download-email input{
+    /* padding: 0px 237px 0px 237px;
+    padding-inline: 30%;*/
+    padding-left: 10px ;
+    padding-block: 15px; 
+    width: 80%;
+    border-radius: 40px;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    text-align: left;
+  }
+  form{
+    position: relative;
+    display: inline;
+   
+  }
+  .download-email button{
+    /* padding: 20px 50px 20px 50px; */
+    width: 30%;
+    padding-block: 15px;
+    border-radius: 40px;
+    position: absolute;
+    right: 0px;
+    background-color: blueviolet;
+    border: none;
+  }
+
+  /* Footer */
+
+  .footer-section{
+    display: flex ;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    padding-block: 5%;
+    padding-inline: 10px;
+    font-size: 20px;
+    gap: 30px;
+    justify-content: space-between;
+    
+  }
+  
+  .footer-left{
+    /* flex-grow: 1; */
+  }
+  .list,.logos-list{
+    list-style-type: none;
+    margin: 10px 0px ;
+    
+  }
+  .list-items{
+    float: left;
+    padding: 10px 10px ;
+    border-right: 1px solid white;
+    font-size: 10px;
+    color: white;
+    line-height: 1px;
+  
+  }
+  .list-item{
+    float: left;
+    padding: 10px 10px ;
+    font-size: 10px;
+    color: white;
+    line-height: 1px;
+  
+  }
+  .footer-right{
+     /* margin-left: 30px; */
+
+    
+  }
+  .footer-logos{
+    margin: 0px 5px;
+  }
+
+  /* Media Query  */
+
+
+  @media only screen and ( max-width:1170px) {
+    
+    .header-bottom{
+        height: 30vw;
+    }
+    
+    .header-text{
+       
+        font-size: 1rem;
+        color: white;
+      }
+      .header-text p{
+        font-size: 1rem;
+      } 
+      .companies{
+        margin: 10px 0px 0px 30px ;
+        width: 70%;
+      }
+      .company-items{
+        text-decoration: none;
+        padding: 0px 20px 0px 20px;
+        font-size: 1rem;
+        font-family: Righteous;
+      }
+      
+      
+      .butn{
+        display: none;
+    }
+   
+    .blog-cards{
+        flex-direction: row;
+        margin: 30px 0px 0px 30px ;
+        justify-content: space-between;
+    
+    
+      }
+      .blog-card{
+        width: 50%;
+        justify-content:unset;
+      }
+      .blog-image{
+        width: 35%;
+      }
+      .blog-image img{
+        width: 100%;
+        height: 100%;
+        
+      }
+      .blog-bottom{
+       
+        bottom: -25px;
+        left: 45%;
+      }
+      .blog-author {
+        position: absolute;
+        bottom: 0;
+        left:45%;
+        width: 120px;
+        
+    }
+      .blog-content{
+        padding-block: 40px;
+        padding-left: 10px ;
+        width: 65%;
+      }
+      
+      .download-content h1{
+        font-size: 1.5rem;
+      }
+      
+    
+      
+
+  }
+  @media only screen and (max-width:700px) {
+
+    nav{
+        
+        display: none;
+        
+       
+      }
+      .logo{
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+      .ham{
+        display: inline-block;
+        width: 40px;
+        display: inline-block;
+        float: right;
+        margin-top: 30px;
+        margin-right: 30px;
+        
+      }
+      
+    
+    .header-bottom{
+      flex-direction: column;
+      height:auto;
+      align-items: center;
+      /* padding-block: 30px; */
+      /* gap: 10px; */
+    }
+
+    .header-text{
+        width: 90%;
+        margin-left: 0px;
+        margin-top: 30px ;
+    }
+    .header-image{
+        width: 90%;
+        position:static;
+       
+    }
+    .side-image{
+        position:relative;
+        right: -6%;
+        bottom: -60px;
+    }
+
+    .companies{
+        margin-top: 60px ;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .company-items{
+        text-decoration: none;
+        padding: 0px;
+        font-size: 1rem;
+        font-family: Righteous;
+      }
+      .cp-2{
+        padding-inline:  5px;
+      }
+
+      .api-heading{
+        margin: 30px 0px 0px 40px ;
+      }
+      .cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0px 0px 0px ;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      
+  .blog-heading{
+    margin: 30px 0px 0px 50px ;
+    font-size: 20px;
+  }
+    
+  .blog-cards{
+    flex-direction: column;
+    margin: 30px 0px 0px 0px ;
+    align-content:space-around;
+    gap: 40px;
+
+
+  }
+  .blog-card{
+    width: 90%;
+    
+  }
+  .blog-image{
+    width:40%;
+    height: 300px;
+  }
+  .blog-bottom{
+    left: 45%;
+  }
+  .blog-author {
+   
+    left:45%;
+   
+    
+}
+  .blog-content{
+    padding-top: 20px;
+    padding-left: 20px ;
+    width: 60%;
+  }
+  .blog-content h3{
+    padding-block: 10px;
+    font-size: 1rem;
+  }
+  
+  .blog-content h6{
+    color: blue;
+  }
+
+  .faq-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightskyblue;
+    justify-content:space-evenly;
+  }
+
+  .faq-content{
+    padding-left: 5%;
+    width: 60%;
+    padding-block: 20px;
+  }
+  .faq-content h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+   
+    
+  }
+  .faq-content h3{
+    font-size: 0.7rem;
+    padding-block: 2%;
+   
+  }
+  .faq-content h4{
+    font-size: 1rem;
+    padding-block: 5%;
+   
+  }
+  .faq-content button{
+    
+    margin-bottom: 5px;
+  
+  }
+  .faq-image{
+    width: 40%;
+  }
+  
+
+
+  .download-section{
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding-block: 40px ;
+  }
+  .download-content{
+    width: 100%;
+    
+  }
+
+  .download-email{
+    width: 100%;
+  }
+ 
+  .footer-section{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+    
+  }
