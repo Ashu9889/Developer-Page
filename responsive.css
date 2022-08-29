@@ -222,7 +222,7 @@ nav{
     font-size: 10px;
     padding: 10px 20px 10px 20px ;
     border-radius: 10px;
-    background-color: blueviolet;
+    background-color: blue;
     color: white;
     border: none;
     margin-bottom: 30px;
@@ -285,7 +285,8 @@ nav{
     border-radius: 40px;
     position: absolute;
     right: 0px;
-    background-color: blueviolet;
+    background-color:blue;
+    color: white;
     border: none;
   }
 
@@ -294,7 +295,7 @@ nav{
   .footer-section{
     display: flex ;
     flex-wrap: wrap;
-    background-color: blueviolet;
+    background-color: blue;
     padding-block: 5%;
     padding-inline: 10px;
     font-size: 20px;
@@ -489,7 +490,11 @@ nav{
         justify-content: space-around;
         align-items: center;
       }
-
+      .card{
+   
+        padding: 30px 20px;
+    
+      }
       
   .blog-heading{
     margin: 30px 0px 0px 50px ;
